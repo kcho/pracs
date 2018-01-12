@@ -3,7 +3,7 @@ import numpy as np
 import sys
 
 
-B=pd.read_csv('Behrens.csv', sep='\t', lineterminator='\r')
+B = pd.read_csv('Behrens.csv', sep='\t', lineterminator='\r')
 cols=list(B)
 #print(cols)
 
